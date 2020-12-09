@@ -1,14 +1,25 @@
 # Qikserve Test
 
-## Install
+# Follow-up Questions#
+### How long did you spend on the test?
+R: 2 days
+### What would you add if you had more time?
+R: I would like to add to remove items from basket.
+### How would you improve the product APIs that you had to consume?
+R: I would add new feature to calculate everything related to cart on API.
+### What did you find most difficult?
+R: Create the cart rule on front end.
+### How did you find the overall experience, any feedback for us?
+R: It's a great project to show your knowledge.
+## How to Install
 
 ### First Step
 
-Download Docker Linux [https://docs.docker.com/engine/install/ubuntu/]
+Download Docker Linux [https://docs.docker.com/engine/install/ubuntu/] if you have don't need it.
 
 ### Second Step
 
-Install Make C++ [https://tldp.org/HOWTO/Software-Building-HOWTO-3.html]
+Install Make C++ [https://tldp.org/HOWTO/Software-Building-HOWTO-3.html]if you have don't need it.
 
 ### Third Step
 run: `make setup`
