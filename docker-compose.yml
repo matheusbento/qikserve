@@ -1,0 +1,26 @@
+version: "3.4"
+
+services:
+  api:
+    container_name: "qikserver-api"
+    build: 
+      context: .
+      dockerfile: deploy/api/Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - qikserver
+  
+  app:
+    container_name: "qikserver-app"
+    build: 
+      context: .
+      dockerfile: deploy/app/Dockerfile
+    ports:
+      - "80:3000"
+    networks:
+      - qikserver
+
+networks:
+  qikserver:
+    external: true

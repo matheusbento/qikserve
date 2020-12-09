@@ -1,0 +1,11 @@
+export const NOTIFICATION_TYPE_SUCCESS = "success";
+
+export const PRODUCT_PROMOTION_TYPE_BUY_X_GET_Y_FREE = "BUY_X_GET_Y_FREE";
+export const PRODUCT_PROMOTION_TYPE_FLAT_PERCENT = "FLAT_PERCENT";
+export const PRODUCT_PROMOTION_TYPE_QTY_BASED_PRICE_OVERRIDE = "QTY_BASED_PRICE_OVERRIDE";
+export const PRODUCT_PROMOTION_TYPE_BUY_X_GET_Y_FREE_NAME = "Gift";
+
+export const CHECKOUT_TOTAL = "Total";
+export const CHECKOUT_RAW_TOTAL = "Raw Total";
+export const CHECKOUT_TOTAL_PROMOS = "Total Promos";
+export const CHECKOUT_TOTAL_PAYABLE = "Total Payable";
